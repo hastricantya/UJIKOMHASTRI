@@ -1,6 +1,6 @@
 <?php 
-// isi nama host, username mysql, dan password mysql anda
-$conn = mysqli_connect("localhost","root","","tokopekita");
+
+$conn = mysqli_connect("localhost","root","","db_ujikomhastri");
 
 if(!$conn){
 	echo "gagal terhubung ke database";
